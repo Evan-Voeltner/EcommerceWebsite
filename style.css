@@ -11,17 +11,23 @@ html {
   font-family: "Segoe UI";
 }
 
+nav {
+  display: flex;
+  
+}
+
+nav h1 {
+    display: inline-block;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   top: 0;
-  width: 100%;
 }
 
 nav li {
-  display: block;
   text-align: center;
   padding: 14px 16px;
   font-family: "Trebuchet MS";
@@ -29,20 +35,21 @@ nav li {
   float: left;
 }
 
-#home-img{
-    max-width: 100%;
+#home-img {
+  max-width: 100%;
+  height:auto;
 }
 
-#home-img-text-left{
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    color: white;
+#home-img-text-left {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: white;
 }
 
-#home-img-text-right{
-    position: absolute;
-    bottom: 20%;
-    right: 10%;
-    color: white;
+#home-img-text-right {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  color: white;
 }
